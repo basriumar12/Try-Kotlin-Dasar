@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="id.co.blogbasbas.kotlintry.MainActivity">
+<Button
+    android:id="@+id/toast"
+    android:text="Toast"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <Button
+    android:id="@+id/alert"
+    android:text="Alert"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <Button
+    android:id="@+id/input"
+    android:text="input user"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <Button
+    android:id="@+id/listView"
+    android:text="List View"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+ <Button
+    android:id="@+id/recyclerView"
+    android:text="RicyclerView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Kotlin Try</string>
+    <string name="title_activity_input_data">InputDataActivity</string>
+</resources>

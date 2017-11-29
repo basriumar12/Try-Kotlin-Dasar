@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="id.co.blogbasbas.kotlintry.InputDataActivity"
+    tools:showIn="@layout/activity_input_data">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:text="Rumus Bangun Datar"
+        android:textSize="20sp" />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/edtAngka1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="@android:drawable/editbox_background"
+        android:hint="Angka 1" />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/edtAngka2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="@android:drawable/editbox_background"
+        android:hint="Angka 2" />
+
+    <Button
+        android:id="@+id/btnHitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Button Hitung" />
+
+    <TextView
+        android:id="@+id/txtHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="Hasil"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:background="@color/colorPrimary"
+            android:id="@+id/btnclear"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="clear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:background="@color/colorPrimary"
+            android:id="@+id/btnPindah"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="Pindah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
