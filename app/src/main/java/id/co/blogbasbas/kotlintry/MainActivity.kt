@@ -62,6 +62,9 @@ class MainActivity : AppCompatActivity() {
         recyclerView.setOnClickListener {
             startActivity(Intent(this@MainActivity, RecyclerviewActivity::class.java))
         }
+        berita.setOnClickListener {
+            startActivity(Intent(this@MainActivity, BeritaActivity::class.java))
+        }
 
     }
 }

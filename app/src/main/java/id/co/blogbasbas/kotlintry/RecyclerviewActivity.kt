@@ -3,6 +3,7 @@ package id.co.blogbasbas.kotlintry
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.GridLayoutManager
+import id.co.blogbasbas.kotlintry.adapter.CustomAdapter
 import kotlinx.android.synthetic.main.activity_recyclerview.*
 
 class RecyclerviewActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package id.co.blogbasbas.kotlintry
+package id.co.blogbasbas.kotlintry.adapter
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
@@ -8,6 +8,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import id.co.blogbasbas.kotlintry.DetailActivity
+import id.co.blogbasbas.kotlintry.R
 
 /**
  * Created by Server on 29/11/2017.
