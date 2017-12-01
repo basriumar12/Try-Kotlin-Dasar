@@ -53,7 +53,13 @@ class MainActivity : AppCompatActivity() {
             var intent = Intent(this@MainActivity, InputDataActivity::class.java)
             startActivity(intent)
         }
+        btnfragment.setOnClickListener {
+            startActivity(Intent(this@MainActivity, TabLayoutActivity::class.java))
+        }
 
+        btnmap.setOnClickListener {
+            startActivity(Intent(this@MainActivity, MapsActivity::class.java))
+        }
         //akses listactivity
         listView.setOnClickListener {
             startActivity(Intent(this@MainActivity, ListviewActivity::class.java))

@@ -13,7 +13,7 @@ class SplashScreenActivity : AppCompatActivity() {
         var handler = Handler()
         handler.postDelayed(Runnable {
 
-            startActivity(Intent(this@SplashScreenActivity, TabLayoutActivity::class.java))
+            startActivity(Intent(this@SplashScreenActivity, MainActivity::class.java))
             finish()
 
         }, 5000)
